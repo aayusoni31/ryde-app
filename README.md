@@ -12,12 +12,8 @@
     <img src="https://img.shields.io/badge/-Stripe-black?style=for-the-badge&logoColor=white&logo=stripe&color=008CDD" alt="stripe" />
   </div>
 
-
 <h3 align="center">Full Stack Uber Clone</h3>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -27,19 +23,6 @@
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Snippets (Code to Copy)](#snippets)
-6. 🖇️ [Links](#links)
-7. 📦 [Assets](#assets)
-8. 🚀 [More](#more)
-
-## 🚨 Tutorial
-
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube
-channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects
-like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/kmy_YNhl0mw" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -47,11 +30,6 @@ Built with React Native for handling the user interface, Google Maps for renderi
 handling payments, serverless Postgres for managing databases, and styled with TailwindCSS, Uber Clone is a perfect
 mobile app. The primary goal is to demonstrate how to develop full-stack mobile applications to showcase the developer's
 skills in a unique manner that creates a lasting impact.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+**
-members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -109,13 +87,6 @@ Make sure you have the following installed on your machine:
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/JavaScript-Mastery-Pro/uber.git
-cd uber
-```
 
 **Installation**
 
@@ -191,88 +162,88 @@ Here are some code snippets from the project to help you get started quickly.
 ```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
-    theme: {
-        extend: {
-            fontFamily: {
-                Jakarta: ["Jakarta", "sans-serif"],
-                JakartaBold: ["Jakarta-Bold", "sans-serif"],
-                JakartaExtraBold: ["Jakarta-ExtraBold", "sans-serif"],
-                JakartaExtraLight: ["Jakarta-ExtraLight", "sans-serif"],
-                JakartaLight: ["Jakarta-Light", "sans-serif"],
-                JakartaMedium: ["Jakarta-Medium", "sans-serif"],
-                JakartaSemiBold: ["Jakarta-SemiBold", "sans-serif"],
-            },
-            colors: {
-                primary: {
-                    100: "#F5F8FF",
-                    200: "#EBF4FF",
-                    300: "#C3D9FF",
-                    400: "#9BBFFF",
-                    500: "#0286FF",
-                    600: "#6A85E6",
-                    700: "#475A99",
-                    800: "#364573",
-                    900: "#242B4D",
-                },
-                secondary: {
-                    100: "#F8F8F8",
-                    200: "#F1F1F1",
-                    300: "#D9D9D9",
-                    400: "#C2C2C2",
-                    500: "#AAAAAA",
-                    600: "#999999",
-                    700: "#666666",
-                    800: "#4D4D4D",
-                    900: "#333333",
-                },
-                success: {
-                    100: "#F0FFF4",
-                    200: "#C6F6D5",
-                    300: "#9AE6B4",
-                    400: "#68D391",
-                    500: "#38A169",
-                    600: "#2F855A",
-                    700: "#276749",
-                    800: "#22543D",
-                    900: "#1C4532",
-                },
-                danger: {
-                    100: "#FFF5F5",
-                    200: "#FED7D7",
-                    300: "#FEB2B2",
-                    400: "#FC8181",
-                    500: "#F56565",
-                    600: "#E53E3E",
-                    700: "#C53030",
-                    800: "#9B2C2C",
-                    900: "#742A2A",
-                },
-                warning: {
-                    100: "#FFFBEB",
-                    200: "#FEF3C7",
-                    300: "#FDE68A",
-                    400: "#FACC15",
-                    500: "#EAB308",
-                    600: "#CA8A04",
-                    700: "#A16207",
-                    800: "#854D0E",
-                    900: "#713F12",
-                },
-                general: {
-                    100: "#CED1DD",
-                    200: "#858585",
-                    300: "#EEEEEE",
-                    400: "#0CC25F",
-                    500: "#F6F8FA",
-                    600: "#E6F3FF",
-                    700: "#EBEBEB",
-                    800: "#ADADAD",
-                },
-            },
+  content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        Jakarta: ["Jakarta", "sans-serif"],
+        JakartaBold: ["Jakarta-Bold", "sans-serif"],
+        JakartaExtraBold: ["Jakarta-ExtraBold", "sans-serif"],
+        JakartaExtraLight: ["Jakarta-ExtraLight", "sans-serif"],
+        JakartaLight: ["Jakarta-Light", "sans-serif"],
+        JakartaMedium: ["Jakarta-Medium", "sans-serif"],
+        JakartaSemiBold: ["Jakarta-SemiBold", "sans-serif"],
+      },
+      colors: {
+        primary: {
+          100: "#F5F8FF",
+          200: "#EBF4FF",
+          300: "#C3D9FF",
+          400: "#9BBFFF",
+          500: "#0286FF",
+          600: "#6A85E6",
+          700: "#475A99",
+          800: "#364573",
+          900: "#242B4D",
         },
+        secondary: {
+          100: "#F8F8F8",
+          200: "#F1F1F1",
+          300: "#D9D9D9",
+          400: "#C2C2C2",
+          500: "#AAAAAA",
+          600: "#999999",
+          700: "#666666",
+          800: "#4D4D4D",
+          900: "#333333",
+        },
+        success: {
+          100: "#F0FFF4",
+          200: "#C6F6D5",
+          300: "#9AE6B4",
+          400: "#68D391",
+          500: "#38A169",
+          600: "#2F855A",
+          700: "#276749",
+          800: "#22543D",
+          900: "#1C4532",
+        },
+        danger: {
+          100: "#FFF5F5",
+          200: "#FED7D7",
+          300: "#FEB2B2",
+          400: "#FC8181",
+          500: "#F56565",
+          600: "#E53E3E",
+          700: "#C53030",
+          800: "#9B2C2C",
+          900: "#742A2A",
+        },
+        warning: {
+          100: "#FFFBEB",
+          200: "#FEF3C7",
+          300: "#FDE68A",
+          400: "#FACC15",
+          500: "#EAB308",
+          600: "#CA8A04",
+          700: "#A16207",
+          800: "#854D0E",
+          900: "#713F12",
+        },
+        general: {
+          100: "#CED1DD",
+          200: "#858585",
+          300: "#EEEEEE",
+          400: "#0CC25F",
+          500: "#F6F8FA",
+          600: "#E6F3FF",
+          700: "#EBEBEB",
+          800: "#ADADAD",
+        },
+      },
     },
-    plugins: [],
+  },
+  plugins: [],
 };
 ```
 
@@ -282,144 +253,144 @@ module.exports = {
 <summary><code>types/type.d.ts</code></summary>
 
 ```ts
-import {TextInputProps, TouchableOpacityProps} from "react-native";
+import { TextInputProps, TouchableOpacityProps } from "react-native";
 
 declare interface Driver {
-    driver_id: number;
-    first_name: string;
-    last_name: string;
-    profile_image_url: string;
-    car_image_url: string;
-    car_seats: number;
-    rating: number;
+  driver_id: number;
+  first_name: string;
+  last_name: string;
+  profile_image_url: string;
+  car_image_url: string;
+  car_seats: number;
+  rating: number;
 }
 
 declare interface MarkerData {
-    latitude: number;
-    longitude: number;
-    id: number;
-    title: string;
-    profile_image_url: string;
-    car_image_url: string;
-    car_seats: number;
-    rating: number;
-    first_name: string;
-    last_name: string;
-    time?: number;
-    price?: string;
+  latitude: number;
+  longitude: number;
+  id: number;
+  title: string;
+  profile_image_url: string;
+  car_image_url: string;
+  car_seats: number;
+  rating: number;
+  first_name: string;
+  last_name: string;
+  time?: number;
+  price?: string;
 }
 
 declare interface MapProps {
-    destinationLatitude?: number;
-    destinationLongitude?: number;
-    onDriverTimesCalculated?: (driversWithTimes: MarkerData[]) => void;
-    selectedDriver?: number | null;
-    onMapReady?: () => void;
+  destinationLatitude?: number;
+  destinationLongitude?: number;
+  onDriverTimesCalculated?: (driversWithTimes: MarkerData[]) => void;
+  selectedDriver?: number | null;
+  onMapReady?: () => void;
 }
 
 declare interface Ride {
-    origin_address: string;
-    destination_address: string;
-    origin_latitude: number;
-    origin_longitude: number;
-    destination_latitude: number;
-    destination_longitude: number;
-    ride_time: number;
-    fare_price: number;
-    payment_status: string;
-    driver_id: number;
-    user_email: string;
-    created_at: string;
-    driver: {
-        first_name: string;
-        last_name: string;
-        car_seats: number;
-    };
+  origin_address: string;
+  destination_address: string;
+  origin_latitude: number;
+  origin_longitude: number;
+  destination_latitude: number;
+  destination_longitude: number;
+  ride_time: number;
+  fare_price: number;
+  payment_status: string;
+  driver_id: number;
+  user_email: string;
+  created_at: string;
+  driver: {
+    first_name: string;
+    last_name: string;
+    car_seats: number;
+  };
 }
 
 declare interface ButtonProps extends TouchableOpacityProps {
-    title: string;
-    bgVariant?: "primary" | "secondary" | "danger" | "outline" | "success";
-    textVariant?: "primary" | "default" | "secondary" | "danger" | "success";
-    IconLeft?: React.ComponentType<any>;
-    IconRight?: React.ComponentType<any>;
-    className?: string;
+  title: string;
+  bgVariant?: "primary" | "secondary" | "danger" | "outline" | "success";
+  textVariant?: "primary" | "default" | "secondary" | "danger" | "success";
+  IconLeft?: React.ComponentType<any>;
+  IconRight?: React.ComponentType<any>;
+  className?: string;
 }
 
 declare interface GoogleInputProps {
-    icon?: string;
-    initialLocation?: string;
-    containerStyle?: string;
-    textInputBackgroundColor?: string;
-    handlePress: ({
-                      latitude,
-                      longitude,
-                      address,
-                  }: {
-        latitude: number;
-        longitude: number;
-        address: string;
-    }) => void;
+  icon?: string;
+  initialLocation?: string;
+  containerStyle?: string;
+  textInputBackgroundColor?: string;
+  handlePress: ({
+    latitude,
+    longitude,
+    address,
+  }: {
+    latitude: number;
+    longitude: number;
+    address: string;
+  }) => void;
 }
 
 declare interface InputFieldProps extends TextInputProps {
-    label: string;
-    icon?: any;
-    secureTextEntry?: boolean;
-    labelStyle?: string;
-    containerStyle?: string;
-    inputStyle?: string;
-    iconStyle?: string;
-    className?: string;
+  label: string;
+  icon?: any;
+  secureTextEntry?: boolean;
+  labelStyle?: string;
+  containerStyle?: string;
+  inputStyle?: string;
+  iconStyle?: string;
+  className?: string;
 }
 
 declare interface PaymentProps {
-    fullName: string;
-    email: string;
-    amount: string;
-    driverId: number;
-    rideTime: number;
+  fullName: string;
+  email: string;
+  amount: string;
+  driverId: number;
+  rideTime: number;
 }
 
 declare interface LocationStore {
-    userLatitude: number | null;
-    userLongitude: number | null;
-    userAddress: string | null;
-    destinationLatitude: number | null;
-    destinationLongitude: number | null;
-    destinationAddress: string | null;
-    setUserLocation: ({
-                          latitude,
-                          longitude,
-                          address,
-                      }: {
-        latitude: number;
-        longitude: number;
-        address: string;
-    }) => void;
-    setDestinationLocation: ({
-                                 latitude,
-                                 longitude,
-                                 address,
-                             }: {
-        latitude: number;
-        longitude: number;
-        address: string;
-    }) => void;
+  userLatitude: number | null;
+  userLongitude: number | null;
+  userAddress: string | null;
+  destinationLatitude: number | null;
+  destinationLongitude: number | null;
+  destinationAddress: string | null;
+  setUserLocation: ({
+    latitude,
+    longitude,
+    address,
+  }: {
+    latitude: number;
+    longitude: number;
+    address: string;
+  }) => void;
+  setDestinationLocation: ({
+    latitude,
+    longitude,
+    address,
+  }: {
+    latitude: number;
+    longitude: number;
+    address: string;
+  }) => void;
 }
 
 declare interface DriverStore {
-    drivers: MarkerData[];
-    selectedDriver: number | null;
-    setSelectedDriver: (driverId: number) => void;
-    setDrivers: (drivers: MarkerData[]) => void;
-    clearSelectedDriver: () => void;
+  drivers: MarkerData[];
+  selectedDriver: number | null;
+  setSelectedDriver: (driverId: number) => void;
+  setDrivers: (drivers: MarkerData[]) => void;
+  clearSelectedDriver: () => void;
 }
 
 declare interface DriverCardProps {
-    item: MarkerData;
-    selected: number;
-    setSelected: () => void;
+  item: MarkerData;
+  selected: number;
+  setSelected: () => void;
 }
 ```
 
@@ -430,28 +401,28 @@ declare interface DriverCardProps {
 
 ```ts
 declare module "*.png" {
-    const value: any;
-    export default value;
+  const value: any;
+  export default value;
 }
 
 declare module "*.jpg" {
-    const value: any;
-    export default value;
+  const value: any;
+  export default value;
 }
 
 declare module "*.jpeg" {
-    const value: any;
-    export default value;
+  const value: any;
+  export default value;
 }
 
 declare module "*.gif" {
-    const value: any;
-    export default value;
+  const value: any;
+  export default value;
 }
 
 declare module "*.svg" {
-    const value: any;
-    export default value;
+  const value: any;
+  export default value;
 }
 ```
 
@@ -496,70 +467,70 @@ import onboarding3 from "@/assets/images/onboarding3.png";
 import signUpCar from "@/assets/images/signup-car.png";
 
 export const images = {
-    onboarding1,
-    onboarding2,
-    onboarding3,
-    getStarted,
-    signUpCar,
-    check,
-    noResult,
-    message,
+  onboarding1,
+  onboarding2,
+  onboarding3,
+  getStarted,
+  signUpCar,
+  check,
+  noResult,
+  message,
 };
 
 export const icons = {
-    arrowDown,
-    arrowUp,
-    backArrow,
-    chat,
-    checkmark,
-    close,
-    dollar,
-    email,
-    eyecross,
-    google,
-    home,
-    list,
-    lock,
-    map,
-    marker,
-    out,
-    person,
-    pin,
-    point,
-    profile,
-    search,
-    selectedMarker,
-    star,
-    target,
-    to,
+  arrowDown,
+  arrowUp,
+  backArrow,
+  chat,
+  checkmark,
+  close,
+  dollar,
+  email,
+  eyecross,
+  google,
+  home,
+  list,
+  lock,
+  map,
+  marker,
+  out,
+  person,
+  pin,
+  point,
+  profile,
+  search,
+  selectedMarker,
+  star,
+  target,
+  to,
 };
 
 export const onboarding = [
-    {
-        id: 1,
-        title: "The perfect ride is just a tap away!",
-        description:
-            "Your journey begins with Ryde. Find your ideal ride effortlessly.",
-        image: images.onboarding1,
-    },
-    {
-        id: 2,
-        title: "Best car in your hands with Ryde",
-        description:
-            "Discover the convenience of finding your perfect ride with Ryde",
-        image: images.onboarding2,
-    },
-    {
-        id: 3,
-        title: "Your ride, your way. Let's go!",
-        description:
-            "Enter your destination, sit back, and let us take care of the rest.",
-        image: images.onboarding3,
-    },
+  {
+    id: 1,
+    title: "The perfect ride is just a tap away!",
+    description:
+      "Your journey begins with Ryde. Find your ideal ride effortlessly.",
+    image: images.onboarding1,
+  },
+  {
+    id: 2,
+    title: "Best car in your hands with Ryde",
+    description:
+      "Discover the convenience of finding your perfect ride with Ryde",
+    image: images.onboarding2,
+  },
+  {
+    id: 3,
+    title: "Your ride, your way. Let's go!",
+    description:
+      "Enter your destination, sit back, and let us take care of the rest.",
+    image: images.onboarding3,
+  },
 ];
 
 export const data = {
-    onboarding,
+  onboarding,
 };
 ```
 
@@ -570,13 +541,13 @@ export const data = {
 
 ```ts
 const [loaded] = useFonts({
-    "Jakarta-Bold": require("../assets/fonts/PlusJakartaSans-Bold.ttf"),
-    "Jakarta-ExtraBold": require("../assets/fonts/PlusJakartaSans-ExtraBold.ttf"),
-    "Jakarta-ExtraLight": require("../assets/fonts/PlusJakartaSans-ExtraLight.ttf"),
-    "Jakarta-Light": require("../assets/fonts/PlusJakartaSans-Light.ttf"),
-    "Jakarta-Medium": require("../assets/fonts/PlusJakartaSans-Medium.ttf"),
-    "Jakarta-Regular": require("../assets/fonts/PlusJakartaSans-Regular.ttf"),
-    "Jakarta-SemiBold": require("../assets/fonts/PlusJakartaSans-SemiBold.ttf"),
+  "Jakarta-Bold": require("../assets/fonts/PlusJakartaSans-Bold.ttf"),
+  "Jakarta-ExtraBold": require("../assets/fonts/PlusJakartaSans-ExtraBold.ttf"),
+  "Jakarta-ExtraLight": require("../assets/fonts/PlusJakartaSans-ExtraLight.ttf"),
+  "Jakarta-Light": require("../assets/fonts/PlusJakartaSans-Light.ttf"),
+  "Jakarta-Medium": require("../assets/fonts/PlusJakartaSans-Medium.ttf"),
+  "Jakarta-Regular": require("../assets/fonts/PlusJakartaSans-Regular.ttf"),
+  "Jakarta-SemiBold": require("../assets/fonts/PlusJakartaSans-SemiBold.ttf"),
 });
 ```
 
@@ -588,63 +559,63 @@ const [loaded] = useFonts({
 <summary><code>components/CustomButton</code></summary>
 
 ```tsx
-import {TouchableOpacity, Text} from "react-native";
+import { TouchableOpacity, Text } from "react-native";
 
-import {ButtonProps} from "@/types/type";
+import { ButtonProps } from "@/types/type";
 
 const getBgVariantStyle = (variant: ButtonProps["bgVariant"]) => {
-    switch (variant) {
-        case "secondary":
-            return "bg-gray-500";
-        case "danger":
-            return "bg-red-500";
-        case "success":
-            return "bg-green-500";
-        case "outline":
-            return "bg-transparent border-neutral-300 border-[0.5px]";
-        default:
-            return "bg-[#0286FF]";
-    }
+  switch (variant) {
+    case "secondary":
+      return "bg-gray-500";
+    case "danger":
+      return "bg-red-500";
+    case "success":
+      return "bg-green-500";
+    case "outline":
+      return "bg-transparent border-neutral-300 border-[0.5px]";
+    default:
+      return "bg-[#0286FF]";
+  }
 };
 
 const getTextVariantStyle = (variant: ButtonProps["textVariant"]) => {
-    switch (variant) {
-        case "primary":
-            return "text-black";
-        case "secondary":
-            return "text-gray-100";
-        case "danger":
-            return "text-red-100";
-        case "success":
-            return "text-green-100";
-        default:
-            return "text-white";
-    }
+  switch (variant) {
+    case "primary":
+      return "text-black";
+    case "secondary":
+      return "text-gray-100";
+    case "danger":
+      return "text-red-100";
+    case "success":
+      return "text-green-100";
+    default:
+      return "text-white";
+  }
 };
 
 const CustomButton = ({
-                          onPress,
-                          title,
-                          bgVariant = "primary",
-                          textVariant = "default",
-                          IconLeft,
-                          IconRight,
-                          className,
-                          ...props
-                      }: ButtonProps) => {
-    return (
-        <TouchableOpacity
-            onPress={onPress}
-            className={`w-full rounded-full p-3 flex flex-row justify-center items-center shadow-md shadow-neutral-400/70 ${getBgVariantStyle(bgVariant)} ${className}`}
-            {...props}
-        >
-            {IconLeft && <IconLeft/>}
-            <Text className={`text-lg font-bold ${getTextVariantStyle(textVariant)}`}>
-                {title}
-            </Text>
-            {IconRight && <IconRight/>}
-        </TouchableOpacity>
-    );
+  onPress,
+  title,
+  bgVariant = "primary",
+  textVariant = "default",
+  IconLeft,
+  IconRight,
+  className,
+  ...props
+}: ButtonProps) => {
+  return (
+    <TouchableOpacity
+      onPress={onPress}
+      className={`w-full rounded-full p-3 flex flex-row justify-center items-center shadow-md shadow-neutral-400/70 ${getBgVariantStyle(bgVariant)} ${className}`}
+      {...props}
+    >
+      {IconLeft && <IconLeft />}
+      <Text className={`text-lg font-bold ${getTextVariantStyle(textVariant)}`}>
+        {title}
+      </Text>
+      {IconRight && <IconRight />}
+    </TouchableOpacity>
+  );
 };
 
 export default CustomButton;
@@ -657,54 +628,54 @@ export default CustomButton;
 
 ```tsx
 import {
-    TextInput,
-    View,
-    Text,
-    Image,
-    KeyboardAvoidingView,
-    TouchableWithoutFeedback,
-    Keyboard,
-    Platform,
+  TextInput,
+  View,
+  Text,
+  Image,
+  KeyboardAvoidingView,
+  TouchableWithoutFeedback,
+  Keyboard,
+  Platform,
 } from "react-native";
 
-import {InputFieldProps} from "@/types/type";
+import { InputFieldProps } from "@/types/type";
 
 const InputField = ({
-                        label,
-                        icon,
-                        secureTextEntry = false,
-                        labelStyle,
-                        containerStyle,
-                        inputStyle,
-                        iconStyle,
-                        className,
-                        ...props
-                    }: InputFieldProps) => {
-    return (
-        <KeyboardAvoidingView
-            behavior={Platform.OS === "ios" ? "padding" : "height"}
-        >
-            <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-                <View className="my-2 w-full">
-                    <Text className={`text-lg font-JakartaSemiBold mb-3 ${labelStyle}`}>
-                        {label}
-                    </Text>
-                    <View
-                        className={`flex flex-row justify-start items-center relative bg-neutral-100 rounded-full border border-neutral-100 focus:border-primary-500  ${containerStyle}`}
-                    >
-                        {icon && (
-                            <Image source={icon} className={`w-6 h-6 ml-4 ${iconStyle}`}/>
-                        )}
-                        <TextInput
-                            className={`rounded-full p-4 font-JakartaSemiBold text-[15px] flex-1 ${inputStyle} text-left`}
-                            secureTextEntry={secureTextEntry}
-                            {...props}
-                        />
-                    </View>
-                </View>
-            </TouchableWithoutFeedback>
-        </KeyboardAvoidingView>
-    );
+  label,
+  icon,
+  secureTextEntry = false,
+  labelStyle,
+  containerStyle,
+  inputStyle,
+  iconStyle,
+  className,
+  ...props
+}: InputFieldProps) => {
+  return (
+    <KeyboardAvoidingView
+      behavior={Platform.OS === "ios" ? "padding" : "height"}
+    >
+      <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+        <View className="my-2 w-full">
+          <Text className={`text-lg font-JakartaSemiBold mb-3 ${labelStyle}`}>
+            {label}
+          </Text>
+          <View
+            className={`flex flex-row justify-start items-center relative bg-neutral-100 rounded-full border border-neutral-100 focus:border-primary-500  ${containerStyle}`}
+          >
+            {icon && (
+              <Image source={icon} className={`w-6 h-6 ml-4 ${iconStyle}`} />
+            )}
+            <TextInput
+              className={`rounded-full p-4 font-JakartaSemiBold text-[15px] flex-1 ${inputStyle} text-left`}
+              secureTextEntry={secureTextEntry}
+              {...props}
+            />
+          </View>
+        </View>
+      </TouchableWithoutFeedback>
+    </KeyboardAvoidingView>
+  );
 };
 
 export default InputField;
@@ -717,68 +688,68 @@ export default InputField;
 
 ```tsx
 import React from "react";
-import {Image, Text, TouchableOpacity, View} from "react-native";
+import { Image, Text, TouchableOpacity, View } from "react-native";
 
-import {icons} from "@/constants";
-import {formatTime} from "@/lib/utils";
-import {DriverCardProps} from "@/types/type";
+import { icons } from "@/constants";
+import { formatTime } from "@/lib/utils";
+import { DriverCardProps } from "@/types/type";
 
-const DriverCard = ({item, selected, setSelected}: DriverCardProps) => {
-    return (
-        <TouchableOpacity
-            onPress={setSelected}
-            className={`${
-                selected === item.id ? "bg-general-600" : "bg-white"
-            } flex flex-row items-center justify-between py-5 px-3 rounded-xl`}
-        >
-            <Image
-                source={{uri: item.profile_image_url}}
-                className="w-14 h-14 rounded-full"
-            />
+const DriverCard = ({ item, selected, setSelected }: DriverCardProps) => {
+  return (
+    <TouchableOpacity
+      onPress={setSelected}
+      className={`${
+        selected === item.id ? "bg-general-600" : "bg-white"
+      } flex flex-row items-center justify-between py-5 px-3 rounded-xl`}
+    >
+      <Image
+        source={{ uri: item.profile_image_url }}
+        className="w-14 h-14 rounded-full"
+      />
 
-            <View className="flex-1 flex flex-col items-start justify-center mx-3">
-                <View className="flex flex-row items-center justify-start mb-1">
-                    <Text className="text-lg font-JakartaRegular">{item.title}</Text>
+      <View className="flex-1 flex flex-col items-start justify-center mx-3">
+        <View className="flex flex-row items-center justify-start mb-1">
+          <Text className="text-lg font-JakartaRegular">{item.title}</Text>
 
-                    <View className="flex flex-row items-center space-x-1 ml-2">
-                        <Image source={icons.star} className="w-3.5 h-3.5"/>
-                        <Text className="text-sm font-JakartaRegular">4</Text>
-                    </View>
-                </View>
+          <View className="flex flex-row items-center space-x-1 ml-2">
+            <Image source={icons.star} className="w-3.5 h-3.5" />
+            <Text className="text-sm font-JakartaRegular">4</Text>
+          </View>
+        </View>
 
-                <View className="flex flex-row items-center justify-start">
-                    <View className="flex flex-row items-center">
-                        <Image source={icons.dollar} className="w-4 h-4"/>
-                        <Text className="text-sm font-JakartaRegular ml-1">
-                            ${item.price}
-                        </Text>
-                    </View>
+        <View className="flex flex-row items-center justify-start">
+          <View className="flex flex-row items-center">
+            <Image source={icons.dollar} className="w-4 h-4" />
+            <Text className="text-sm font-JakartaRegular ml-1">
+              ${item.price}
+            </Text>
+          </View>
 
-                    <Text className="text-sm font-JakartaRegular text-general-800 mx-1">
-                        |
-                    </Text>
+          <Text className="text-sm font-JakartaRegular text-general-800 mx-1">
+            |
+          </Text>
 
-                    <Text className="text-sm font-JakartaRegular text-general-800">
-                        {formatTime(item.time!)}
-                    </Text>
+          <Text className="text-sm font-JakartaRegular text-general-800">
+            {formatTime(item.time!)}
+          </Text>
 
-                    <Text className="text-sm font-JakartaRegular text-general-800 mx-1">
-                        |
-                    </Text>
+          <Text className="text-sm font-JakartaRegular text-general-800 mx-1">
+            |
+          </Text>
 
-                    <Text className="text-sm font-JakartaRegular text-general-800">
-                        {item.car_seats} seats
-                    </Text>
-                </View>
-            </View>
+          <Text className="text-sm font-JakartaRegular text-general-800">
+            {item.car_seats} seats
+          </Text>
+        </View>
+      </View>
 
-            <Image
-                source={{uri: item.car_image_url}}
-                className="h-14 w-14"
-                resizeMode="contain"
-            />
-        </TouchableOpacity>
-    );
+      <Image
+        source={{ uri: item.car_image_url }}
+        className="h-14 w-14"
+        resizeMode="contain"
+      />
+    </TouchableOpacity>
+  );
 };
 
 export default DriverCard;
@@ -792,45 +763,45 @@ export default DriverCard;
 <summary><code>lib/fetch.ts</code></summary>
 
 ```ts
-import {useState, useEffect, useCallback} from "react";
+import { useState, useEffect, useCallback } from "react";
 
 export const fetchAPI = async (url: string, options?: RequestInit) => {
-    try {
-        const response = await fetch(url, options);
-        if (!response.ok) {
-            new Error(`HTTP error! status: ${response.status}`);
-        }
-        return await response.json();
-    } catch (error) {
-        console.error("Fetch error:", error);
-        throw error;
+  try {
+    const response = await fetch(url, options);
+    if (!response.ok) {
+      new Error(`HTTP error! status: ${response.status}`);
     }
+    return await response.json();
+  } catch (error) {
+    console.error("Fetch error:", error);
+    throw error;
+  }
 };
 
 export const useFetch = <T>(url: string, options?: RequestInit) => {
-    const [data, setData] = useState<T | null>(null);
-    const [loading, setLoading] = useState(false);
-    const [error, setError] = useState<string | null>(null);
+  const [data, setData] = useState<T | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-    const fetchData = useCallback(async () => {
-        setLoading(true);
-        setError(null);
+  const fetchData = useCallback(async () => {
+    setLoading(true);
+    setError(null);
 
-        try {
-            const result = await fetchAPI(url, options);
-            setData(result.data);
-        } catch (err) {
-            setError((err as Error).message);
-        } finally {
-            setLoading(false);
-        }
-    }, [url, options]);
+    try {
+      const result = await fetchAPI(url, options);
+      setData(result.data);
+    } catch (err) {
+      setError((err as Error).message);
+    } finally {
+      setLoading(false);
+    }
+  }, [url, options]);
 
-    useEffect(() => {
-        fetchData();
-    }, [fetchData]);
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]);
 
-    return {data, loading, error, refetch: fetchData};
+  return { data, loading, error, refetch: fetchData };
 };
 ```
 
@@ -840,126 +811,126 @@ export const useFetch = <T>(url: string, options?: RequestInit) => {
   <summary><code>lib/map.ts</code></summary>
 
 ```ts
-import {Driver, MarkerData} from "@/types/type";
+import { Driver, MarkerData } from "@/types/type";
 
 const directionsAPI = process.env.EXPO_PUBLIC_GOOGLE_API_KEY;
 
 export const generateMarkersFromData = ({
-                                            data,
-                                            userLatitude,
-                                            userLongitude,
-                                        }: {
-    data: Driver[];
-    userLatitude: number;
-    userLongitude: number;
+  data,
+  userLatitude,
+  userLongitude,
+}: {
+  data: Driver[];
+  userLatitude: number;
+  userLongitude: number;
 }): MarkerData[] => {
-    return data.map((driver) => {
-        const latOffset = (Math.random() - 0.5) * 0.01; // Random offset between -0.005 and 0.005
-        const lngOffset = (Math.random() - 0.5) * 0.01; // Random offset between -0.005 and 0.005
+  return data.map((driver) => {
+    const latOffset = (Math.random() - 0.5) * 0.01; // Random offset between -0.005 and 0.005
+    const lngOffset = (Math.random() - 0.5) * 0.01; // Random offset between -0.005 and 0.005
 
-        return {
-            latitude: userLatitude + latOffset,
-            longitude: userLongitude + lngOffset,
-            title: `${driver.first_name} ${driver.last_name}`,
-            ...driver,
-        };
-    });
+    return {
+      latitude: userLatitude + latOffset,
+      longitude: userLongitude + lngOffset,
+      title: `${driver.first_name} ${driver.last_name}`,
+      ...driver,
+    };
+  });
 };
 
 export const calculateRegion = ({
-                                    userLatitude,
-                                    userLongitude,
-                                    destinationLatitude,
-                                    destinationLongitude,
-                                }: {
-    userLatitude: number | null;
-    userLongitude: number | null;
-    destinationLatitude?: number | null;
-    destinationLongitude?: number | null;
+  userLatitude,
+  userLongitude,
+  destinationLatitude,
+  destinationLongitude,
+}: {
+  userLatitude: number | null;
+  userLongitude: number | null;
+  destinationLatitude?: number | null;
+  destinationLongitude?: number | null;
 }) => {
-    if (!userLatitude || !userLongitude) {
-        return {
-            latitude: 37.78825,
-            longitude: -122.4324,
-            latitudeDelta: 0.01,
-            longitudeDelta: 0.01,
-        };
-    }
-
-    if (!destinationLatitude || !destinationLongitude) {
-        return {
-            latitude: userLatitude,
-            longitude: userLongitude,
-            latitudeDelta: 0.01,
-            longitudeDelta: 0.01,
-        };
-    }
-
-    const minLat = Math.min(userLatitude, destinationLatitude);
-    const maxLat = Math.max(userLatitude, destinationLatitude);
-    const minLng = Math.min(userLongitude, destinationLongitude);
-    const maxLng = Math.max(userLongitude, destinationLongitude);
-
-    const latitudeDelta = (maxLat - minLat) * 1.3; // Adding some padding
-    const longitudeDelta = (maxLng - minLng) * 1.3; // Adding some padding
-
-    const latitude = (userLatitude + destinationLatitude) / 2;
-    const longitude = (userLongitude + destinationLongitude) / 2;
-
+  if (!userLatitude || !userLongitude) {
     return {
-        latitude,
-        longitude,
-        latitudeDelta,
-        longitudeDelta,
+      latitude: 37.78825,
+      longitude: -122.4324,
+      latitudeDelta: 0.01,
+      longitudeDelta: 0.01,
     };
+  }
+
+  if (!destinationLatitude || !destinationLongitude) {
+    return {
+      latitude: userLatitude,
+      longitude: userLongitude,
+      latitudeDelta: 0.01,
+      longitudeDelta: 0.01,
+    };
+  }
+
+  const minLat = Math.min(userLatitude, destinationLatitude);
+  const maxLat = Math.max(userLatitude, destinationLatitude);
+  const minLng = Math.min(userLongitude, destinationLongitude);
+  const maxLng = Math.max(userLongitude, destinationLongitude);
+
+  const latitudeDelta = (maxLat - minLat) * 1.3; // Adding some padding
+  const longitudeDelta = (maxLng - minLng) * 1.3; // Adding some padding
+
+  const latitude = (userLatitude + destinationLatitude) / 2;
+  const longitude = (userLongitude + destinationLongitude) / 2;
+
+  return {
+    latitude,
+    longitude,
+    latitudeDelta,
+    longitudeDelta,
+  };
 };
 
 export const calculateDriverTimes = async ({
-                                               markers,
-                                               userLatitude,
-                                               userLongitude,
-                                               destinationLatitude,
-                                               destinationLongitude,
-                                           }: {
-    markers: MarkerData[];
-    userLatitude: number | null;
-    userLongitude: number | null;
-    destinationLatitude: number | null;
-    destinationLongitude: number | null;
+  markers,
+  userLatitude,
+  userLongitude,
+  destinationLatitude,
+  destinationLongitude,
+}: {
+  markers: MarkerData[];
+  userLatitude: number | null;
+  userLongitude: number | null;
+  destinationLatitude: number | null;
+  destinationLongitude: number | null;
 }) => {
-    if (
-        !userLatitude ||
-        !userLongitude ||
-        !destinationLatitude ||
-        !destinationLongitude
-    )
-        return;
+  if (
+    !userLatitude ||
+    !userLongitude ||
+    !destinationLatitude ||
+    !destinationLongitude
+  )
+    return;
 
-    try {
-        const timesPromises = markers.map(async (marker) => {
-            const responseToUser = await fetch(
-                `https://maps.googleapis.com/maps/api/directions/json?origin=${marker.latitude},${marker.longitude}&destination=${userLatitude},${userLongitude}&key=${directionsAPI}`,
-            );
-            const dataToUser = await responseToUser.json();
-            const timeToUser = dataToUser.routes[0].legs[0].duration.value; // Time in seconds
+  try {
+    const timesPromises = markers.map(async (marker) => {
+      const responseToUser = await fetch(
+        `https://maps.googleapis.com/maps/api/directions/json?origin=${marker.latitude},${marker.longitude}&destination=${userLatitude},${userLongitude}&key=${directionsAPI}`
+      );
+      const dataToUser = await responseToUser.json();
+      const timeToUser = dataToUser.routes[0].legs[0].duration.value; // Time in seconds
 
-            const responseToDestination = await fetch(
-                `https://maps.googleapis.com/maps/api/directions/json?origin=${userLatitude},${userLongitude}&destination=${destinationLatitude},${destinationLongitude}&key=${directionsAPI}`,
-            );
-            const dataToDestination = await responseToDestination.json();
-            const timeToDestination =
-                dataToDestination.routes[0].legs[0].duration.value; // Time in seconds
+      const responseToDestination = await fetch(
+        `https://maps.googleapis.com/maps/api/directions/json?origin=${userLatitude},${userLongitude}&destination=${destinationLatitude},${destinationLongitude}&key=${directionsAPI}`
+      );
+      const dataToDestination = await responseToDestination.json();
+      const timeToDestination =
+        dataToDestination.routes[0].legs[0].duration.value; // Time in seconds
 
-            const totalTime = (timeToUser + timeToDestination) / 60; // Total time in minutes
-            const price = (totalTime * 0.5).toFixed(2); // Calculate price based on time
+      const totalTime = (timeToUser + timeToDestination) / 60; // Total time in minutes
+      const price = (totalTime * 0.5).toFixed(2); // Calculate price based on time
 
-            return {...marker, time: totalTime, price};
-        });
+      return { ...marker, time: totalTime, price };
+    });
 
-        return await Promise.all(timesPromises);
-    } catch (error) {
-        console.error("Error calculating driver times:", error);
-    }
+    return await Promise.all(timesPromises);
+  } catch (error) {
+    console.error("Error calculating driver times:", error);
+  }
 };
 ```
 
@@ -969,51 +940,51 @@ export const calculateDriverTimes = async ({
 <summary><code>lib/utils.ts</code></summary>
 
 ```ts
-import {Ride} from "@/types/type";
+import { Ride } from "@/types/type";
 
 export const sortRides = (rides: Ride[]): Ride[] => {
-    const result = rides.sort((a, b) => {
-        const dateA = new Date(`${a.created_at}T${a.ride_time}`);
-        const dateB = new Date(`${b.created_at}T${b.ride_time}`);
-        return dateB.getTime() - dateA.getTime();
-    });
+  const result = rides.sort((a, b) => {
+    const dateA = new Date(`${a.created_at}T${a.ride_time}`);
+    const dateB = new Date(`${b.created_at}T${b.ride_time}`);
+    return dateB.getTime() - dateA.getTime();
+  });
 
-    return result.reverse();
+  return result.reverse();
 };
 
 export function formatTime(minutes: number): string {
-    const formattedMinutes = +minutes?.toFixed(0) || 0;
+  const formattedMinutes = +minutes?.toFixed(0) || 0;
 
-    if (formattedMinutes < 60) {
-        return `${minutes} min`;
-    } else {
-        const hours = Math.floor(formattedMinutes / 60);
-        const remainingMinutes = formattedMinutes % 60;
-        return `${hours}h ${remainingMinutes}m`;
-    }
+  if (formattedMinutes < 60) {
+    return `${minutes} min`;
+  } else {
+    const hours = Math.floor(formattedMinutes / 60);
+    const remainingMinutes = formattedMinutes % 60;
+    return `${hours}h ${remainingMinutes}m`;
+  }
 }
 
 export function formatDate(dateString: string): string {
-    const date = new Date(dateString);
-    const day = date.getDate();
-    const monthNames = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December",
-    ];
-    const month = monthNames[date.getMonth()];
-    const year = date.getFullYear();
+  const date = new Date(dateString);
+  const day = date.getDate();
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  const month = monthNames[date.getMonth()];
+  const year = date.getFullYear();
 
-    return `${day < 10 ? "0" + day : day} ${month} ${year}`;
+  return `${day < 10 ? "0" + day : day} ${month} ${year}`;
 }
 ```
 
@@ -1045,14 +1016,14 @@ SELECT
         'car_image_url', drivers.car_image_url,
         'car_seats', drivers.car_seats,
         'rating', drivers.rating
-    ) AS driver 
-FROM 
+    ) AS driver
+FROM
     rides
 INNER JOIN
     drivers ON rides.driver_id = drivers.id
-WHERE 
+WHERE
     rides.user_email = ${id}
-ORDER BY 
+ORDER BY
     rides.created_at DESC;
 ```
 
@@ -1063,12 +1034,12 @@ ORDER BY
 
 ```sql
 INSERT INTO drivers (id, first_name, last_name, profile_image_url, car_image_url, car_seats, rating)
-VALUES 
+VALUES
 ('1', 'James', 'Wilson', 'https://ucarecdn.com/dae59f69-2c1f-48c3-a883-017bcf0f9950/-/preview/1000x666/', 'https://ucarecdn.com/a2dc52b2-8bf7-4e49-9a36-3ffb5229ed02/-/preview/465x466/', 4, '4.80'),
 ('2', 'David', 'Brown', 'https://ucarecdn.com/6ea6d83d-ef1a-483f-9106-837a3a5b3f67/-/preview/1000x666/', 'https://ucarecdn.com/a3872f80-c094-409c-82f8-c9ff38429327/-/preview/930x932/', 5, '4.60'),
 ('3', 'Michael', 'Johnson', 'https://ucarecdn.com/0330d85c-232e-4c30-bd04-e5e4d0e3d688/-/preview/826x822/', 'https://ucarecdn.com/289764fb-55b6-4427-b1d1-f655987b4a14/-/preview/930x932/', 4, '4.70'),
 ('4', 'Robert', 'Green', 'https://ucarecdn.com/fdfc54df-9d24-40f7-b7d3-6f391561c0db/-/preview/626x417/', 'https://ucarecdn.com/b6fb3b55-7676-4ff3-8484-fb115e268d32/-/preview/930x932/', 4, '4.90');
-`````
+```
 
 </details>
 
@@ -1109,7 +1080,7 @@ CREATE TABLE rides (
     driver_id INTEGER REFERENCES drivers(id),
     user_id VARCHAR(100) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-); 
+);
 ```
 
 </details>
@@ -1135,43 +1106,51 @@ CREATE TABLE users (
 
 ```js
 [
-    {
-        "id": "1",
-        "first_name": "James",
-        "last_name": "Wilson",
-        "profile_image_url": "https://ucarecdn.com/dae59f69-2c1f-48c3-a883-017bcf0f9950/-/preview/1000x666/",
-        "car_image_url": "https://ucarecdn.com/a2dc52b2-8bf7-4e49-9a36-3ffb5229ed02/-/preview/465x466/",
-        "car_seats": 4,
-        "rating": "4.80"
-    },
-    {
-        "id": "2",
-        "first_name": "David",
-        "last_name": "Brown",
-        "profile_image_url": "https://ucarecdn.com/6ea6d83d-ef1a-483f-9106-837a3a5b3f67/-/preview/1000x666/",
-        "car_image_url": "https://ucarecdn.com/a3872f80-c094-409c-82f8-c9ff38429327/-/preview/930x932/",
-        "car_seats": 5,
-        "rating": "4.60"
-    },
-    {
-        "id": "3",
-        "first_name": "Michael",
-        "last_name": "Johnson",
-        "profile_image_url": "https://ucarecdn.com/0330d85c-232e-4c30-bd04-e5e4d0e3d688/-/preview/826x822/",
-        "car_image_url": "https://ucarecdn.com/289764fb-55b6-4427-b1d1-f655987b4a14/-/preview/930x932/",
-        "car_seats": 4,
-        "rating": "4.70"
-    },
-    {
-        "id": "4",
-        "first_name": "Robert",
-        "last_name": "Green",
-        "profile_image_url": "https://ucarecdn.com/fdfc54df-9d24-40f7-b7d3-6f391561c0db/-/preview/626x417/",
-        "car_image_url": "https://ucarecdn.com/b6fb3b55-7676-4ff3-8484-fb115e268d32/-/preview/930x932/",
-        "car_seats": 4,
-        "rating": "4.90"
-    }
-]
+  {
+    id: "1",
+    first_name: "James",
+    last_name: "Wilson",
+    profile_image_url:
+      "https://ucarecdn.com/dae59f69-2c1f-48c3-a883-017bcf0f9950/-/preview/1000x666/",
+    car_image_url:
+      "https://ucarecdn.com/a2dc52b2-8bf7-4e49-9a36-3ffb5229ed02/-/preview/465x466/",
+    car_seats: 4,
+    rating: "4.80",
+  },
+  {
+    id: "2",
+    first_name: "David",
+    last_name: "Brown",
+    profile_image_url:
+      "https://ucarecdn.com/6ea6d83d-ef1a-483f-9106-837a3a5b3f67/-/preview/1000x666/",
+    car_image_url:
+      "https://ucarecdn.com/a3872f80-c094-409c-82f8-c9ff38429327/-/preview/930x932/",
+    car_seats: 5,
+    rating: "4.60",
+  },
+  {
+    id: "3",
+    first_name: "Michael",
+    last_name: "Johnson",
+    profile_image_url:
+      "https://ucarecdn.com/0330d85c-232e-4c30-bd04-e5e4d0e3d688/-/preview/826x822/",
+    car_image_url:
+      "https://ucarecdn.com/289764fb-55b6-4427-b1d1-f655987b4a14/-/preview/930x932/",
+    car_seats: 4,
+    rating: "4.70",
+  },
+  {
+    id: "4",
+    first_name: "Robert",
+    last_name: "Green",
+    profile_image_url:
+      "https://ucarecdn.com/fdfc54df-9d24-40f7-b7d3-6f391561c0db/-/preview/626x417/",
+    car_image_url:
+      "https://ucarecdn.com/b6fb3b55-7676-4ff3-8484-fb115e268d32/-/preview/930x932/",
+    car_seats: 4,
+    rating: "4.90",
+  },
+];
 ```
 
 </details>
@@ -1181,103 +1160,111 @@ CREATE TABLE users (
 
 ```js
 [
-    {
-        "ride_id": "1",
-        "origin_address": "Kathmandu, Nepal",
-        "destination_address": "Pokhara, Nepal",
-        "origin_latitude": "27.717245",
-        "origin_longitude": "85.323961",
-        "destination_latitude": "28.209583",
-        "destination_longitude": "83.985567",
-        "ride_time": 391,
-        "fare_price": "19500.00",
-        "payment_status": "paid",
-        "driver_id": 2,
-        "user_id": "1",
-        "created_at": "2024-08-12 05:19:20.620007",
-        "driver": {
-            "driver_id": "2",
-            "first_name": "David",
-            "last_name": "Brown",
-            "profile_image_url": "https://ucarecdn.com/6ea6d83d-ef1a-483f-9106-837a3a5b3f67/-/preview/1000x666/",
-            "car_image_url": "https://ucarecdn.com/a3872f80-c094-409c-82f8-c9ff38429327/-/preview/930x932/",
-            "car_seats": 5,
-            "rating": "4.60"
-        }
+  {
+    ride_id: "1",
+    origin_address: "Kathmandu, Nepal",
+    destination_address: "Pokhara, Nepal",
+    origin_latitude: "27.717245",
+    origin_longitude: "85.323961",
+    destination_latitude: "28.209583",
+    destination_longitude: "83.985567",
+    ride_time: 391,
+    fare_price: "19500.00",
+    payment_status: "paid",
+    driver_id: 2,
+    user_id: "1",
+    created_at: "2024-08-12 05:19:20.620007",
+    driver: {
+      driver_id: "2",
+      first_name: "David",
+      last_name: "Brown",
+      profile_image_url:
+        "https://ucarecdn.com/6ea6d83d-ef1a-483f-9106-837a3a5b3f67/-/preview/1000x666/",
+      car_image_url:
+        "https://ucarecdn.com/a3872f80-c094-409c-82f8-c9ff38429327/-/preview/930x932/",
+      car_seats: 5,
+      rating: "4.60",
     },
-    {
-        "ride_id": "2",
-        "origin_address": "Jalkot, MH",
-        "destination_address": "Pune, Maharashtra, India",
-        "origin_latitude": "18.609116",
-        "origin_longitude": "77.165873",
-        "destination_latitude": "18.520430",
-        "destination_longitude": "73.856744",
-        "ride_time": 491,
-        "fare_price": "24500.00",
-        "payment_status": "paid",
-        "driver_id": 1,
-        "user_id": "1",
-        "created_at": "2024-08-12 06:12:17.683046",
-        "driver": {
-            "driver_id": "1",
-            "first_name": "James",
-            "last_name": "Wilson",
-            "profile_image_url": "https://ucarecdn.com/dae59f69-2c1f-48c3-a883-017bcf0f9950/-/preview/1000x666/",
-            "car_image_url": "https://ucarecdn.com/a2dc52b2-8bf7-4e49-9a36-3ffb5229ed02/-/preview/465x466/",
-            "car_seats": 4,
-            "rating": "4.80"
-        }
+  },
+  {
+    ride_id: "2",
+    origin_address: "Jalkot, MH",
+    destination_address: "Pune, Maharashtra, India",
+    origin_latitude: "18.609116",
+    origin_longitude: "77.165873",
+    destination_latitude: "18.520430",
+    destination_longitude: "73.856744",
+    ride_time: 491,
+    fare_price: "24500.00",
+    payment_status: "paid",
+    driver_id: 1,
+    user_id: "1",
+    created_at: "2024-08-12 06:12:17.683046",
+    driver: {
+      driver_id: "1",
+      first_name: "James",
+      last_name: "Wilson",
+      profile_image_url:
+        "https://ucarecdn.com/dae59f69-2c1f-48c3-a883-017bcf0f9950/-/preview/1000x666/",
+      car_image_url:
+        "https://ucarecdn.com/a2dc52b2-8bf7-4e49-9a36-3ffb5229ed02/-/preview/465x466/",
+      car_seats: 4,
+      rating: "4.80",
     },
-    {
-        "ride_id": "3",
-        "origin_address": "Zagreb, Croatia",
-        "destination_address": "Rijeka, Croatia",
-        "origin_latitude": "45.815011",
-        "origin_longitude": "15.981919",
-        "destination_latitude": "45.327063",
-        "destination_longitude": "14.442176",
-        "ride_time": 124,
-        "fare_price": "6200.00",
-        "payment_status": "paid",
-        "driver_id": 1,
-        "user_id": "1",
-        "created_at": "2024-08-12 08:49:01.809053",
-        "driver": {
-            "driver_id": "1",
-            "first_name": "James",
-            "last_name": "Wilson",
-            "profile_image_url": "https://ucarecdn.com/dae59f69-2c1f-48c3-a883-017bcf0f9950/-/preview/1000x666/",
-            "car_image_url": "https://ucarecdn.com/a2dc52b2-8bf7-4e49-9a36-3ffb5229ed02/-/preview/465x466/",
-            "car_seats": 4,
-            "rating": "4.80"
-        }
+  },
+  {
+    ride_id: "3",
+    origin_address: "Zagreb, Croatia",
+    destination_address: "Rijeka, Croatia",
+    origin_latitude: "45.815011",
+    origin_longitude: "15.981919",
+    destination_latitude: "45.327063",
+    destination_longitude: "14.442176",
+    ride_time: 124,
+    fare_price: "6200.00",
+    payment_status: "paid",
+    driver_id: 1,
+    user_id: "1",
+    created_at: "2024-08-12 08:49:01.809053",
+    driver: {
+      driver_id: "1",
+      first_name: "James",
+      last_name: "Wilson",
+      profile_image_url:
+        "https://ucarecdn.com/dae59f69-2c1f-48c3-a883-017bcf0f9950/-/preview/1000x666/",
+      car_image_url:
+        "https://ucarecdn.com/a2dc52b2-8bf7-4e49-9a36-3ffb5229ed02/-/preview/465x466/",
+      car_seats: 4,
+      rating: "4.80",
     },
-    {
-        "ride_id": "4",
-        "origin_address": "Okayama, Japan",
-        "destination_address": "Osaka, Japan",
-        "origin_latitude": "34.655531",
-        "origin_longitude": "133.919795",
-        "destination_latitude": "34.693725",
-        "destination_longitude": "135.502254",
-        "ride_time": 159,
-        "fare_price": "7900.00",
-        "payment_status": "paid",
-        "driver_id": 3,
-        "user_id": "1",
-        "created_at": "2024-08-12 18:43:54.297838",
-        "driver": {
-            "driver_id": "3",
-            "first_name": "Michael",
-            "last_name": "Johnson",
-            "profile_image_url": "https://ucarecdn.com/0330d85c-232e-4c30-bd04-e5e4d0e3d688/-/preview/826x822/",
-            "car_image_url": "https://ucarecdn.com/289764fb-55b6-4427-b1d1-f655987b4a14/-/preview/930x932/",
-            "car_seats": 4,
-            "rating": "4.70"
-        }
-    }
-]
+  },
+  {
+    ride_id: "4",
+    origin_address: "Okayama, Japan",
+    destination_address: "Osaka, Japan",
+    origin_latitude: "34.655531",
+    origin_longitude: "133.919795",
+    destination_latitude: "34.693725",
+    destination_longitude: "135.502254",
+    ride_time: 159,
+    fare_price: "7900.00",
+    payment_status: "paid",
+    driver_id: 3,
+    user_id: "1",
+    created_at: "2024-08-12 18:43:54.297838",
+    driver: {
+      driver_id: "3",
+      first_name: "Michael",
+      last_name: "Johnson",
+      profile_image_url:
+        "https://ucarecdn.com/0330d85c-232e-4c30-bd04-e5e4d0e3d688/-/preview/826x822/",
+      car_image_url:
+        "https://ucarecdn.com/289764fb-55b6-4427-b1d1-f655987b4a14/-/preview/930x932/",
+      car_seats: 4,
+      rating: "4.70",
+    },
+  },
+];
 ```
 
 </details>
@@ -1288,47 +1275,47 @@ CREATE TABLE users (
 <summary><code>(api)/ride/create+api.ts</code></summary>
 
 ```ts
-import {neon} from "@neondatabase/serverless";
+import { neon } from "@neondatabase/serverless";
 
 export async function POST(request: Request) {
-    try {
-        const body = await request.json();
-        const {
-            origin_address,
-            destination_address,
-            origin_latitude,
-            origin_longitude,
-            destination_latitude,
-            destination_longitude,
-            ride_time,
-            fare_price,
-            payment_status,
-            driver_id,
-            user_id,
-        } = body;
+  try {
+    const body = await request.json();
+    const {
+      origin_address,
+      destination_address,
+      origin_latitude,
+      origin_longitude,
+      destination_latitude,
+      destination_longitude,
+      ride_time,
+      fare_price,
+      payment_status,
+      driver_id,
+      user_id,
+    } = body;
 
-        if (
-            !origin_address ||
-            !destination_address ||
-            !origin_latitude ||
-            !origin_longitude ||
-            !destination_latitude ||
-            !destination_longitude ||
-            !ride_time ||
-            !fare_price ||
-            !payment_status ||
-            !driver_id ||
-            !user_id
-        ) {
-            return Response.json(
-                {error: "Missing required fields"},
-                {status: 400},
-            );
-        }
+    if (
+      !origin_address ||
+      !destination_address ||
+      !origin_latitude ||
+      !origin_longitude ||
+      !destination_latitude ||
+      !destination_longitude ||
+      !ride_time ||
+      !fare_price ||
+      !payment_status ||
+      !driver_id ||
+      !user_id
+    ) {
+      return Response.json(
+        { error: "Missing required fields" },
+        { status: 400 }
+      );
+    }
 
-        const sql = neon(`${process.env.DATABASE_URL}`);
+    const sql = neon(`${process.env.DATABASE_URL}`);
 
-        const response = await sql`
+    const response = await sql`
         INSERT INTO rides ( 
           origin_address, 
           destination_address, 
@@ -1357,11 +1344,11 @@ export async function POST(request: Request) {
         RETURNING *;
         `;
 
-        return Response.json({data: response[0]}, {status: 201});
-    } catch (error) {
-        console.error("Error inserting data into recent_rides:", error);
-        return Response.json({error: "Internal Server Error"}, {status: 500});
-    }
+    return Response.json({ data: response[0] }, { status: 201 });
+  } catch (error) {
+    console.error("Error inserting data into recent_rides:", error);
+    return Response.json({ error: "Internal Server Error" }, { status: 500 });
+  }
 }
 ```
 
@@ -1371,15 +1358,15 @@ export async function POST(request: Request) {
 <summary><code>(api)/ride/[id]+api.ts</code></summary>
 
 ```ts
-import {neon} from "@neondatabase/serverless";
+import { neon } from "@neondatabase/serverless";
 
-export async function GET(request: Request, {id}: { id: string }) {
-    if (!id)
-        return Response.json({error: "Missing required fields"}, {status: 400});
+export async function GET(request: Request, { id }: { id: string }) {
+  if (!id)
+    return Response.json({ error: "Missing required fields" }, { status: 400 });
 
-    try {
-        const sql = neon(`${process.env.DATABASE_URL}`);
-        const response = await sql`
+  try {
+    const sql = neon(`${process.env.DATABASE_URL}`);
+    const response = await sql`
         SELECT
             rides.ride_id,
             rides.origin_address,
@@ -1411,11 +1398,11 @@ export async function GET(request: Request, {id}: { id: string }) {
             rides.created_at DESC;
         `;
 
-        return Response.json({data: response});
-    } catch (error) {
-        console.error("Error fetching recent rides:", error);
-        return Response.json({error: "Internal Server Error"}, {status: 500});
-    }
+    return Response.json({ data: response });
+  } catch (error) {
+    console.error("Error fetching recent rides:", error);
+    return Response.json({ error: "Internal Server Error" }, { status: 500 });
+  }
 }
 ```
 
@@ -1427,101 +1414,99 @@ export async function GET(request: Request, {id}: { id: string }) {
   <summary><code>(root)/book-ride</code></summary>
 
 ```tsx
-import {useUser} from "@clerk/clerk-expo";
-import {Image, Text, View} from "react-native";
+import { useUser } from "@clerk/clerk-expo";
+import { Image, Text, View } from "react-native";
 
 import RideLayout from "@/components/RideLayout";
-import {icons} from "@/constants";
-import {formatTime} from "@/lib/utils";
-import {useDriverStore, useLocationStore} from "@/store";
+import { icons } from "@/constants";
+import { formatTime } from "@/lib/utils";
+import { useDriverStore, useLocationStore } from "@/store";
 
 const BookRide = () => {
-    const {user} = useUser();
-    const {userAddress, destinationAddress} = useLocationStore();
-    const {drivers, selectedDriver} = useDriverStore();
+  const { user } = useUser();
+  const { userAddress, destinationAddress } = useLocationStore();
+  const { drivers, selectedDriver } = useDriverStore();
 
-    const driverDetails = drivers?.filter(
-        (driver) => +driver.id === selectedDriver,
-    )[0];
+  const driverDetails = drivers?.filter(
+    (driver) => +driver.id === selectedDriver
+  )[0];
 
-    return (
-        <RideLayout title="Book Ride">
-            <>
-                <Text className="text-xl font-JakartaSemiBold mb-3">
-                    Ride Information
-                </Text>
+  return (
+    <RideLayout title="Book Ride">
+      <>
+        <Text className="text-xl font-JakartaSemiBold mb-3">
+          Ride Information
+        </Text>
 
-                <View className="flex flex-col w-full items-center justify-center mt-10">
-                    <Image
-                        source={{uri: driverDetails?.profile_image_url}}
-                        className="w-28 h-28 rounded-full"
-                    />
+        <View className="flex flex-col w-full items-center justify-center mt-10">
+          <Image
+            source={{ uri: driverDetails?.profile_image_url }}
+            className="w-28 h-28 rounded-full"
+          />
 
-                    <View className="flex flex-row items-center justify-center mt-5 space-x-2">
-                        <Text className="text-lg font-JakartaSemiBold">
-                            {driverDetails?.title}
-                        </Text>
+          <View className="flex flex-row items-center justify-center mt-5 space-x-2">
+            <Text className="text-lg font-JakartaSemiBold">
+              {driverDetails?.title}
+            </Text>
 
-                        <View className="flex flex-row items-center space-x-0.5">
-                            <Image
-                                source={icons.star}
-                                className="w-5 h-5"
-                                resizeMode="contain"
-                            />
-                            <Text className="text-lg font-JakartaRegular">
-                                {driverDetails?.rating}
-                            </Text>
-                        </View>
-                    </View>
-                </View>
+            <View className="flex flex-row items-center space-x-0.5">
+              <Image
+                source={icons.star}
+                className="w-5 h-5"
+                resizeMode="contain"
+              />
+              <Text className="text-lg font-JakartaRegular">
+                {driverDetails?.rating}
+              </Text>
+            </View>
+          </View>
+        </View>
 
-                <View
-                    className="flex flex-col w-full items-start justify-center py-3 px-5 rounded-3xl bg-general-600 mt-5">
-                    <View className="flex flex-row items-center justify-between w-full border-b border-white py-3">
-                        <Text className="text-lg font-JakartaRegular">Ride Price</Text>
-                        <Text className="text-lg font-JakartaRegular text-[#0CC25F]">
-                            ${driverDetails?.price}
-                        </Text>
-                    </View>
+        <View className="flex flex-col w-full items-start justify-center py-3 px-5 rounded-3xl bg-general-600 mt-5">
+          <View className="flex flex-row items-center justify-between w-full border-b border-white py-3">
+            <Text className="text-lg font-JakartaRegular">Ride Price</Text>
+            <Text className="text-lg font-JakartaRegular text-[#0CC25F]">
+              ${driverDetails?.price}
+            </Text>
+          </View>
 
-                    <View className="flex flex-row items-center justify-between w-full border-b border-white py-3">
-                        <Text className="text-lg font-JakartaRegular">Pickup Time</Text>
-                        <Text className="text-lg font-JakartaRegular">
-                            {formatTime(driverDetails?.time!)}
-                        </Text>
-                    </View>
+          <View className="flex flex-row items-center justify-between w-full border-b border-white py-3">
+            <Text className="text-lg font-JakartaRegular">Pickup Time</Text>
+            <Text className="text-lg font-JakartaRegular">
+              {formatTime(driverDetails?.time!)}
+            </Text>
+          </View>
 
-                    <View className="flex flex-row items-center justify-between w-full py-3">
-                        <Text className="text-lg font-JakartaRegular">Car Seats</Text>
-                        <Text className="text-lg font-JakartaRegular">
-                            {driverDetails?.car_seats}
-                        </Text>
-                    </View>
-                </View>
+          <View className="flex flex-row items-center justify-between w-full py-3">
+            <Text className="text-lg font-JakartaRegular">Car Seats</Text>
+            <Text className="text-lg font-JakartaRegular">
+              {driverDetails?.car_seats}
+            </Text>
+          </View>
+        </View>
 
-                <View className="flex flex-col w-full items-start justify-center mt-5">
-                    <View
-                        className="flex flex-row items-center justify-start mt-3 border-t border-b border-general-700 w-full py-3">
-                        <Image source={icons.to} className="w-6 h-6"/>
-                        <Text className="text-lg font-JakartaRegular ml-2">
-                            {userAddress}
-                        </Text>
-                    </View>
+        <View className="flex flex-col w-full items-start justify-center mt-5">
+          <View className="flex flex-row items-center justify-start mt-3 border-t border-b border-general-700 w-full py-3">
+            <Image source={icons.to} className="w-6 h-6" />
+            <Text className="text-lg font-JakartaRegular ml-2">
+              {userAddress}
+            </Text>
+          </View>
 
-                    <View className="flex flex-row items-center justify-start border-b border-general-700 w-full py-3">
-                        <Image source={icons.point} className="w-6 h-6"/>
-                        <Text className="text-lg font-JakartaRegular ml-2">
-                            {destinationAddress}
-                        </Text>
-                    </View>
-                </View>
-            </>
-        </RideLayout>
-    );
+          <View className="flex flex-row items-center justify-start border-b border-general-700 w-full py-3">
+            <Image source={icons.point} className="w-6 h-6" />
+            <Text className="text-lg font-JakartaRegular ml-2">
+              {destinationAddress}
+            </Text>
+          </View>
+        </View>
+      </>
+    </RideLayout>
+  );
 };
 
 export default BookRide;
-```  
+```
 
 </details>
 
@@ -1529,74 +1514,73 @@ export default BookRide;
 <summary><code>(root)/(tabs)/profile</code></summary>
 
 ```tsx
-import {useUser} from "@clerk/clerk-expo";
-import {Image, ScrollView, Text, View} from "react-native";
-import {SafeAreaView} from "react-native-safe-area-context";
+import { useUser } from "@clerk/clerk-expo";
+import { Image, ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import InputField from "@/components/input-field";
 
 const Profile = () => {
-    const {user} = useUser();
+  const { user } = useUser();
 
-    return (
-        <SafeAreaView className="flex-1">
-            <ScrollView
-                className="px-5"
-                contentContainerStyle={{paddingBottom: 120}}
-            >
-                <Text className="text-2xl font-JakartaBold my-5">My profile</Text>
+  return (
+    <SafeAreaView className="flex-1">
+      <ScrollView
+        className="px-5"
+        contentContainerStyle={{ paddingBottom: 120 }}
+      >
+        <Text className="text-2xl font-JakartaBold my-5">My profile</Text>
 
-                <View className="flex items-center justify-center my-5">
-                    <Image
-                        source={{
-                            uri: user?.externalAccounts[0]?.imageUrl ?? user?.imageUrl,
-                        }}
-                        style={{width: 110, height: 110, borderRadius: 110 / 2}}
-                        className=" rounded-full h-[110px] w-[110px] border-[3px] border-white shadow-sm shadow-neutral-300"
-                    />
-                </View>
+        <View className="flex items-center justify-center my-5">
+          <Image
+            source={{
+              uri: user?.externalAccounts[0]?.imageUrl ?? user?.imageUrl,
+            }}
+            style={{ width: 110, height: 110, borderRadius: 110 / 2 }}
+            className=" rounded-full h-[110px] w-[110px] border-[3px] border-white shadow-sm shadow-neutral-300"
+          />
+        </View>
 
-                <View
-                    className="flex flex-col items-start justify-center bg-white rounded-lg shadow-sm shadow-neutral-300 px-5 py-3">
-                    <View className="flex flex-col items-start justify-start w-full">
-                        <InputField
-                            label="First name"
-                            placeholder={user?.firstName || "Not Found"}
-                            containerStyle="w-full"
-                            inputStyle="p-3.5"
-                            editable={false}
-                        />
+        <View className="flex flex-col items-start justify-center bg-white rounded-lg shadow-sm shadow-neutral-300 px-5 py-3">
+          <View className="flex flex-col items-start justify-start w-full">
+            <InputField
+              label="First name"
+              placeholder={user?.firstName || "Not Found"}
+              containerStyle="w-full"
+              inputStyle="p-3.5"
+              editable={false}
+            />
 
-                        <InputField
-                            label="Last name"
-                            placeholder={user?.lastName || "Not Found"}
-                            containerStyle="w-full"
-                            inputStyle="p-3.5"
-                            editable={false}
-                        />
+            <InputField
+              label="Last name"
+              placeholder={user?.lastName || "Not Found"}
+              containerStyle="w-full"
+              inputStyle="p-3.5"
+              editable={false}
+            />
 
-                        <InputField
-                            label="Email"
-                            placeholder={
-                                user?.primaryEmailAddress?.emailAddress || "Not Found"
-                            }
-                            containerStyle="w-full"
-                            inputStyle="p-3.5"
-                            editable={false}
-                        />
+            <InputField
+              label="Email"
+              placeholder={
+                user?.primaryEmailAddress?.emailAddress || "Not Found"
+              }
+              containerStyle="w-full"
+              inputStyle="p-3.5"
+              editable={false}
+            />
 
-                        <InputField
-                            label="Phone"
-                            placeholder={user?.primaryPhoneNumber?.phoneNumber || "Not Found"}
-                            containerStyle="w-full"
-                            inputStyle="p-3.5"
-                            editable={false}
-                        />
-                    </View>
-                </View>
-            </ScrollView>
-        </SafeAreaView>
-    );
+            <InputField
+              label="Phone"
+              placeholder={user?.primaryPhoneNumber?.phoneNumber || "Not Found"}
+              containerStyle="w-full"
+              inputStyle="p-3.5"
+              editable={false}
+            />
+          </View>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
 };
 
 export default Profile;
@@ -1608,33 +1592,33 @@ export default Profile;
 <summary><code>(root)/(tabs)/chat</code></summary>
 
 ```tsx
-import {Image, ScrollView, Text, View} from "react-native";
-import {SafeAreaView} from "react-native-safe-area-context";
+import { Image, ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
-import {images} from "@/constants";
+import { images } from "@/constants";
 
 const Chat = () => {
-    return (
-        <SafeAreaView className="flex-1 bg-white p-5">
-            <ScrollView contentContainerStyle={{flexGrow: 1}}>
-                <Text className="text-2xl font-JakartaBold">Chat</Text>
-                <View className="flex-1 h-fit flex justify-center items-center">
-                    <Image
-                        source={images.message}
-                        alt="message"
-                        className="w-full h-40"
-                        resizeMode="contain"
-                    />
-                    <Text className="text-3xl font-JakartaBold mt-3">
-                        No Messages Yet
-                    </Text>
-                    <Text className="text-base mt-2 text-center px-7">
-                        Start a conversation with your friends and family
-                    </Text>
-                </View>
-            </ScrollView>
-        </SafeAreaView>
-    );
+  return (
+    <SafeAreaView className="flex-1 bg-white p-5">
+      <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+        <Text className="text-2xl font-JakartaBold">Chat</Text>
+        <View className="flex-1 h-fit flex justify-center items-center">
+          <Image
+            source={images.message}
+            alt="message"
+            className="w-full h-40"
+            resizeMode="contain"
+          />
+          <Text className="text-3xl font-JakartaBold mt-3">
+            No Messages Yet
+          </Text>
+          <Text className="text-base mt-2 text-center px-7">
+            Start a conversation with your friends and family
+          </Text>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
 };
 
 export default Chat;
@@ -1648,65 +1632,65 @@ export default Chat;
   <summary><code>store/index.ts</code></summary>
 
 ```ts
-import {create} from "zustand";
+import { create } from "zustand";
 
-import {DriverStore, LocationStore, MarkerData} from "@/types/type";
+import { DriverStore, LocationStore, MarkerData } from "@/types/type";
 
 export const useLocationStore = create<LocationStore>((set) => ({
-    userLatitude: null,
-    userLongitude: null,
-    userAddress: null,
-    destinationLatitude: null,
-    destinationLongitude: null,
-    destinationAddress: null,
-    setUserLocation: ({
-                          latitude,
-                          longitude,
-                          address,
-                      }: {
-        latitude: number;
-        longitude: number;
-        address: string;
-    }) => {
-        set(() => ({
-            userLatitude: latitude,
-            userLongitude: longitude,
-            userAddress: address,
-        }));
+  userLatitude: null,
+  userLongitude: null,
+  userAddress: null,
+  destinationLatitude: null,
+  destinationLongitude: null,
+  destinationAddress: null,
+  setUserLocation: ({
+    latitude,
+    longitude,
+    address,
+  }: {
+    latitude: number;
+    longitude: number;
+    address: string;
+  }) => {
+    set(() => ({
+      userLatitude: latitude,
+      userLongitude: longitude,
+      userAddress: address,
+    }));
 
-        // If driver is selected and now a new location is set, clear the selected driver
-        const {selectedDriver, clearSelectedDriver} = useDriverStore.getState();
-        if (selectedDriver) clearSelectedDriver();
-    },
+    // If driver is selected and now a new location is set, clear the selected driver
+    const { selectedDriver, clearSelectedDriver } = useDriverStore.getState();
+    if (selectedDriver) clearSelectedDriver();
+  },
 
-    setDestinationLocation: ({
-                                 latitude,
-                                 longitude,
-                                 address,
-                             }: {
-        latitude: number;
-        longitude: number;
-        address: string;
-    }) => {
-        set(() => ({
-            destinationLatitude: latitude,
-            destinationLongitude: longitude,
-            destinationAddress: address,
-        }));
+  setDestinationLocation: ({
+    latitude,
+    longitude,
+    address,
+  }: {
+    latitude: number;
+    longitude: number;
+    address: string;
+  }) => {
+    set(() => ({
+      destinationLatitude: latitude,
+      destinationLongitude: longitude,
+      destinationAddress: address,
+    }));
 
-        // If driver is selected and now a new location is set, clear the selected driver
-        const {selectedDriver, clearSelectedDriver} = useDriverStore.getState();
-        if (selectedDriver) clearSelectedDriver();
-    },
+    // If driver is selected and now a new location is set, clear the selected driver
+    const { selectedDriver, clearSelectedDriver } = useDriverStore.getState();
+    if (selectedDriver) clearSelectedDriver();
+  },
 }));
 
 export const useDriverStore = create<DriverStore>((set) => ({
-    drivers: [] as MarkerData[],
-    selectedDriver: null,
-    setSelectedDriver: (driverId: number) =>
-        set(() => ({selectedDriver: driverId})),
-    setDrivers: (drivers: MarkerData[]) => set(() => ({drivers})),
-    clearSelectedDriver: () => set(() => ({selectedDriver: null})),
+  drivers: [] as MarkerData[],
+  selectedDriver: null,
+  setSelectedDriver: (driverId: number) =>
+    set(() => ({ selectedDriver: driverId })),
+  setDrivers: (drivers: MarkerData[]) => set(() => ({ drivers })),
+  clearSelectedDriver: () => set(() => ({ selectedDriver: null })),
 }));
 ```
 
@@ -1730,18 +1714,3 @@ You can find important links mentioned in the YouTube video below:
 - <a href="https://docs.stripe.com/payments/accept-a-payment?platform=react-native&ui=payment-sheet" target="_blank">
   Stripe React Native SDK</a>
 - <a href="https://docs.stripe.com/payments/accept-a-payment-deferred" target="_blank">Stripe</a>
-
-## <a name="assets">📦 Assets</a>
-
-Assets used in the project can be
-found [here](https://drive.google.com/file/d/1ekttG-aCyy4g0SKqLSrEn_uHf2MJMRJ4/view?usp=sharing)
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
