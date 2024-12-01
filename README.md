@@ -1,8 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/kmy_YNhl0mw" target="_blank">
-      <img src="https://i.ibb.co/Bf04Hpd/Readme-thumbnail-from-JS-Mastery.png" alt="Project Banner">
-    </a>
+    
   <br />
 
   <div>
