@@ -14,13 +14,6 @@
 
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
-
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets (Code to Copy)](#snippets)
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -29,16 +22,6 @@ handling payments, serverless Postgres for managing databases, and styled with T
 mobile app. The primary goal is to demonstrate how to develop full-stack mobile applications to showcase the developer's
 skills in a unique manner that creates a lasting impact.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
-
-- React Native
-- Expo
-- Stripe
-- PostgreSQL
-- Google Maps
-- zustand
-- Clerk
-- Tailwind CSS
 
 ## <a name="features">🔋 Features</a>
 
@@ -1694,21 +1677,3 @@ export const useDriverStore = create<DriverStore>((set) => ({
 
 </details>
 
-## <a name="links">🔗 Links</a>
-
-You can find important links mentioned in the YouTube video below:
-
-- <a href="https://www.nativewind.dev/quick-starts/expo" target="_blank">Expo NativeWind Setup</a>
-- <a href="https://www.nativewind.dev/v4/getting-started/typescript" target="_blank">TypeScript Support for
-  NativeWind</a>
-- <a href="https://docs.expo.dev/guides/using-eslint/" target="_blank">Eslint and Prettier Setup</a>
-- <a href="https://jb.gg/JSMastery" target="_blank">Download FREE WebStorm</a>
-- <a href="https://neon.tech/" target="_blank">Serverless NeonDB</a>
-- <a href="https://go.clerk.com/DtiSBEI" target="_blank">Clerk Auth</a>
-- <a href="https://courses.jsmastery.pro/course/databases" target="_blank">Database Mastery Course</a>
-- <a href="https://clerk.com/docs/quickstarts/expo" target="_blank">Clerk Expo Quickstart</a>
-- <a href="https://clerk.com/docs/custom-flows/oauth-connections" target="_blank">Clerk Expo OAuth</a>
-- <a href="https://www.geoapify.com/" target="_blank">Geoapify Map</a>
-- <a href="https://docs.stripe.com/payments/accept-a-payment?platform=react-native&ui=payment-sheet" target="_blank">
-  Stripe React Native SDK</a>
-- <a href="https://docs.stripe.com/payments/accept-a-payment-deferred" target="_blank">Stripe</a>
